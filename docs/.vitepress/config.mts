@@ -6,7 +6,7 @@ import { defineConfig } from 'vitepress'
 const SITE_NAME = 'BMAHS'
 const PROTOCOL_VERSION = 'bmahs/1.2'
 const ORIGIN = 'https://www.bmahs.com'
-const REPO = 'https://github.com/XJPeng12/bmahs-site'
+const REPO = 'https://github.com/bmahs/bmahs'
 
 const HOME_DESC = {
   zh: 'BMAHS（大模型智能体硬件规范 bmahs/1.2）—— 智能体与硬件设备之间的普通话。TCP 上的 JSON-RPC 2.0 控制通道，为 AGI 就绪，支持一句话现场编排。',

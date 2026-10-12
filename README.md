@@ -56,7 +56,7 @@ scripts/
 
 1. GitHub 仓库 → Settings → Pages → Source 选择 **GitHub Actions**；
 2. 自定义域名：Settings → Pages → Custom domain 填 `www.bmahs.com`（仓库已含 `public/CNAME`）；
-3. DNS 解析添加：`www` 的 CNAME 记录 → `xjpeng12.github.io`；
+3. DNS 解析添加：`www` 的 CNAME 记录 → `bmahs.github.io`；
    （可选） apex 域 `bmahs.com` 添加 A 记录指向 `185.199.108.153` / `185.199.109.153` / `185.199.110.153` / `185.199.111.153`，GitHub 会自动 301 到 www；
 4. 域名生效后勾选 **Enforce HTTPS**。
 
