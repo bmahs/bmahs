@@ -1,8 +1,10 @@
 name: 部署到 GitHub Pages
 
+# 站点暂未发布：仅保留手动触发，避免 push 时自动重新发布站点。
+# 需要恢复「push 即自动部署」时，取消下面 push 触发器的注释即可。
 on:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
   workflow_dispatch:
 
 permissions:
